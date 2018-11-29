@@ -1,5 +1,11 @@
+@import '~/app/heroes/common.css';
+
+.theme {
+  background-color: var(--bg-color-b);
+}
+
 .container {
-  background-color: #EFEFF4;
+  background-color: #efeff4;
 }
 
 .search-container {
@@ -10,8 +16,8 @@
   padding-left: 10;
   font-size: 20;
 }
-.search-container Button {
-  background-color: #30CE91;
+.search-container button {
+  background-color: #30ce91;
   color: white;
   font-size: 18;
   padding: 10 30;
@@ -28,11 +34,10 @@ ListView {
   border-radius: 10;
   margin: 10 15;
   padding: 15;
-
 }
 .circle {
-  background-color: #C6D7FE;
-  color: #2A48CD;
+  background-color: #c6d7fe;
+  color: #2a48cd;
 }
 .hero-label {
   font-weight: bold;

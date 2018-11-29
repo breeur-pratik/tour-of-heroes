@@ -1,6 +1,8 @@
 <drawer-action-bar title="My Heroes"></drawer-action-bar>
 
 <StackLayout class="container">
+  <Label text="TEST" class="theme"></Label>
+  
   <GridLayout rows="auto" columns="*, auto" class="search-container">
     <TextField col="0" hint="Hero name" #heroName></TextField>
     <Button col="1" text="Add" (tap)="add(heroName.text); heroName.text=''"></Button>
